@@ -5,7 +5,7 @@ tasks:
       sudo mysql_secure_installation &&
       sudo service mysql start
   - command: >
-      mysql -u root -e "CREATE USER 'gitpod'@'localhost' IDENTIFIED BY 'password';" &&
+      mysql -u root -e "CREATE USER 'root'@'localhost' IDENTIFIED BY '210922MX';" &&
       mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'gitpod'@'localhost';" &&
       mysql -u root -e "FLUSH PRIVILEGES;"
 
